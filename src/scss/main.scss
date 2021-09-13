@@ -38,15 +38,36 @@ textarea {
   color: #fff;
   float: right;
   border-radius: 5px;
+  &:hover {
+    animation: buttonPulseText 1s ease-in-out infinite normal;
+  }
 }
 
 .button-load {
   background: $button-load-color;
   border: 3px solid $button-load-color;
+  &:hover {
+    background: $button-load-color-bg-hover;
+  }
 }
 
 .button-save {
   background: $button-save-color;
   border: 3px solid $button-save-color;
   margin-right: 0px;
+  &:hover {
+    background: $button-save-color-bg-hover;
+  }
+}
+
+@keyframes buttonPulseText {
+  0% {
+    color: #fff
+  }
+  50% {
+    color: $button-save-color-text-pulse-hover
+  }
+  100% {
+    color: #fff
+  }
 }
