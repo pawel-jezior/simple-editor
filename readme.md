@@ -6,4 +6,4 @@
 - JS
 ## Run with:
 - npm install
-### You can find presentation [here](pawel-jezior.github.io/simple-editor/).
+### You can find presentation [here](https://pawel-jezior.github.io/simple-editor/)
