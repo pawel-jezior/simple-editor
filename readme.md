@@ -1,4 +1,4 @@
-![preview](../img/gh.PNG)
+![preview](src/assets/img/gh.PNG)
 # Simple Editor with LocalStorage
 - HTML
 - CSS/SCSS
